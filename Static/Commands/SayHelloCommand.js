@@ -28,7 +28,7 @@ Alchemy.command("${PluginName}", "SayHello", {
         var p = this.properties;
         var selectedItem = this._getSelectedItem(selection);
         var url = "${ViewsUrl}PublishedEnvironment.aspx#selectedItem=" + selectedItem;
-        var parameters = "width=450px, height=500px";
+        var parameters = "width=450px, height=500px,resizable=no,dialog=yes,minimizable=yes,maximizable=no";
         var args = { popupType: Tridion.Controls.PopupManager.Type.EXTERNAL };
 
         p.popup = $popupManager.createExternalContentPopup(url, parameters, args);

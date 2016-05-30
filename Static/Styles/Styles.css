@@ -11,11 +11,11 @@
 /* main icon in full ribbon mode */
 .ribbontoolbar #SayHelloButton.button .image, .ribbontoolbar #SayHelloButton.button .image
 {
-    background-image: url('${ImgUrl}PublishedEnvironment-32x32.png');
+    background-image: url('${ImgUrl}PublishedEnvironment1-32x32.png');
 }
 
 /* main icon in minimized ribbon mode */
 .ribbontoolbar.minimized #SayHelloButton.button .image, .ribbontoolbar.minimized #SayHelloButton.button .image
 {
-    background-image: url('${ImgUrl}PublishedEnvironment-32x32.png');
+    background-image: url('${ImgUrl}PublishedEnvironment1-32x32.png');
 }

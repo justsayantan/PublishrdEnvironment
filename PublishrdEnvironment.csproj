@@ -101,6 +101,7 @@
     <Content Include="Static\Images\incorrect1.png" />
     <Content Include="Static\Images\PublishedEnvironment-16X16.png" />
     <Content Include="Static\Images\PublishedEnvironment-32x32.png" />
+    <Content Include="Static\Images\PublishedEnvironment1-32x32.png" />
     <Content Include="Static\Scripts\PublishedEnvironment.js" />
     <Content Include="Static\Styles\PublishedEnvironment.css" />
     <Content Include="Static\Styles\Styles.css" />
