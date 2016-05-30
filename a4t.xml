@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<plugin xmlns:c="http://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
+  <id>573c9ef6e4de0210303b6eba</id>
+  <name>Published_Environment</name>
+  <description><![CDATA[]]></description>
+  <version>1.0.0.0</version>
+  <settings>
+    <client>
+      <StagingTcmID>Put the TCM ID of Staging/Preview Publishing Target</StagingTcmID>
+      <LiveTcmID>Put the TCM ID of Live Publishing Target</LiveTcmID>
+    </client>
+  </settings>
+  <versionId>573c9ef6e4de0210303b6ebb</versionId>
+  <frameworkVersion>0.7.0.0</frameworkVersion>
+  <buildTime>2016-05-18T16:56:42.6696564+00:00</buildTime>
+</plugin>
