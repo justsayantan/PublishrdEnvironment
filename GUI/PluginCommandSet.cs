@@ -7,7 +7,7 @@ namespace PublishrdEnvironment.GUI
         public PluginCommandSet()
         {
             // we only need to add the name of our command
-            AddCommand("SayHello");
+            AddCommand("CheckPublishedEnvironment");
         }
     }
 }

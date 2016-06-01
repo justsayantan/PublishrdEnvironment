@@ -13,7 +13,7 @@ namespace PublishrdEnvironment.GUI
             // Use AddItem() or AddSubMenu() to add items for this context menu
 
             //       element id      title        command name
-            AddItem("say_hello_cm", "Published Environment", "SayHello");
+            AddItem("Check_Published_Environment", "Published Environment", "CheckPublishedEnvironment");
 
             // Add a dependency to the resource group that contains the files/commands that this toolbar extension will use.
             Dependencies.Add<PluginResourceGroup>();

@@ -21,49 +21,55 @@ Alchemy.Plugins.PublishrdEnvironment.Views.PublishrdEnvironment.prototype.initia
             Alchemy.Plugins["${PluginName}"].Api.Service.publishedEnvironment(param)
         .success(function (result) {
 
-            var data = new Array();
-            data.push(["TcmId", "Title", "Published To Staging", "Published To Live"])
+            if (result.length > 0) {
+                var data = new Array();
+                data.push(["TcmId", "Title", "Published To Preview/Staging", "Published To Live"])
 
-            for (var i = 0; i < result.length; i++) {
-                data.push([result[i].itemTcmId, result[i].itemTitle, result[i].isPublishedToStaging, result[i].isPublishedToLive]);
-            }
-            var table = document.createElement("TABLE");
-            table.border = "1";
-
-            var item = data[0].length;
-
-            var row = table.insertRow(-1);
-            for (var i = 0; i < item; i++) {
-                var headerCell = document.createElement("TH");
-                headerCell.innerHTML = data[0][i];
-                row.appendChild(headerCell);
-            }
-
-
-            for (var i = 1; i < data.length; i++) {
-                row = table.insertRow(-1);
-                for (var j = 0; j < item; j++) {
-                    var cell = row.insertCell(-1);
-                    if (j == 2 || j==3)
-                    {
-                        if (data[i][j] == true) {
-                            cell.innerHTML = "<img src ='/WebUI/Editors/Alchemy/Plugins/Published_Environment/assets/img/correct.png' alt= 'Yes' align='middle'/>";
-                        }
-                        else { cell.innerHTML = "<img src = '/WebUI/Editors/Alchemy/Plugins/Published_Environment/assets/img/incorrect1.png' alt= 'No' align='middle' />"; }
-                    }
-                    else
-                    {cell.innerHTML = data[i][j];}
-                    
+                for (var i = 0; i < result.length; i++) {
+                    data.push([result[i].itemTcmId, result[i].itemTitle, result[i].isPublishedToStaging, result[i].isPublishedToLive]);
                 }
-            }
+                var table = document.createElement("TABLE");
+                table.border = "1";
 
-            var dvTable = document.getElementById("dvTable");
-            dvTable.innerHTML = "";
-            dvTable.appendChild(table);
+                var item = data[0].length;
+
+                var row = table.insertRow(-1);
+                for (var i = 0; i < item; i++) {
+                    var headerCell = document.createElement("TH");
+                    headerCell.innerHTML = data[0][i];
+                    row.appendChild(headerCell);
+                }
+
+
+                for (var i = 1; i < data.length; i++) {
+                    row = table.insertRow(-1);
+                    for (var j = 0; j < item; j++) {
+                        var cell = row.insertCell(-1);
+                        if (j == 2 || j == 3) {
+                            if (data[i][j] == true) {
+                                cell.innerHTML = "<img src ='/WebUI/Editors/Alchemy/Plugins/Published_Environment/assets/img/correct.png' alt= 'Yes' align='middle'/>";
+                            }
+                            else { cell.innerHTML = "<img src = '/WebUI/Editors/Alchemy/Plugins/Published_Environment/assets/img/incorrect1.png' alt= 'No' align='middle' />"; }
+                        }
+                        else { cell.innerHTML = data[i][j]; }
+
+                    }
+                }
+
+                var dvTable = document.getElementById("dvTable");
+                dvTable.innerHTML = "";
+                dvTable.appendChild(table);
+            }
+            else
+            {
+                var dvTable = document.getElementById("dvTable");
+                dvTable.innerHTML = "<p><font color='red'>No Components/Pages are found in this Ripository.</font></p>";
+                dvTable.innerHTML.fontcolor = red;
+            }
 
         })
         .error(function (type, error) {
-            $messages.registerError("There was an error", error.message);
+            $messages.registerError("No Components/Pages are found in this Ripository.");
         })
         .complete(function () {
         });

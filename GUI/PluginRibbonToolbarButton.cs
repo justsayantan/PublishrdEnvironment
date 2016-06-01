@@ -7,10 +7,10 @@ namespace PublishrdEnvironment.GUI
         public PluginRibbonToolbarButton()
         {
             // The unique identifier used for the html element created.
-            AssignId = "SayHelloButton";
+            AssignId = "PublishedEnvironmentButton";
 
             // The name of the command to execute when clicked
-            Command = "SayHello";
+            Command = "CheckPublishedEnvironment";
 
             // The label of the button.
             Name = "Published Environment";

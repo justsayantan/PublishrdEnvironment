@@ -93,7 +93,7 @@
     <Content Include="a4t.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Static\Commands\SayHelloCommand.js" />
+    <Content Include="Static\Commands\CheckPublishedEnvironment.js" />
     <Content Include="Static\Images\correct.png" />
     <Content Include="Static\Images\hello-16x16.png" />
     <Content Include="Static\Images\hello-32x32.png" />
@@ -104,7 +104,7 @@
     <Content Include="Static\Images\PublishedEnvironment1-32x32.png" />
     <Content Include="Static\Scripts\PublishedEnvironment.js" />
     <Content Include="Static\Styles\PublishedEnvironment.css" />
-    <Content Include="Static\Styles\Styles.css" />
+    <Content Include="Static\Styles\CheckPublishedEnvironment.css" />
     <Content Include="Static\Views\PublishedEnvironment.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>

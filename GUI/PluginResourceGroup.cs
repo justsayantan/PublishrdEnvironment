@@ -8,9 +8,9 @@ namespace PublishrdEnvironment.GUI
         public PluginResourceGroup()
         {
             // only the filename of our JS files are needed
-            AddFile("SayHelloCommand.js");
+            AddFile("CheckPublishedEnvironment.js");
             // only the filename of our CSS files are needed
-            AddFile("Styles.css");
+            AddFile("CheckPublishedEnvironment.css");
             // add genertic type param to reference our command set
             AddFile<PluginCommandSet>();
 

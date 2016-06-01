@@ -40,19 +40,12 @@ namespace PublishrdEnvironment.Controllers
         /// All of your action methods must have both a verb attribute as well as the RouteAttribute in
         /// order for the js proxy to work correctly.
         /// </remarks>
-        [HttpGet]
-        [Route("Hello")]
-        public string SayHello()
-        {
-            return String.Format("Hello Alchemist {0}!", User.GetName());
-        }
-
-        [HttpGet]
-        [Route("CmsVersion")]
-        public string CmsVersion()
-        {
-            return Client.GetApiVersion();
-        }
+        //[HttpGet]
+        //[Route("CheckPublishedEnvironment")]
+        //public string SayHello()
+        //{
+        //    return String.Format("Hello Alchemist {0}!", User.GetName());
+        //}
 
         [HttpPost]
         [Route("PublishedEnvironment")]

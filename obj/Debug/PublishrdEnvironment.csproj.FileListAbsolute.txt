@@ -12,3 +12,17 @@ c:\users\administrator\documents\visual studio 2013\Projects\PublishrdEnvironmen
 c:\users\administrator\documents\visual studio 2013\Projects\PublishrdEnvironment\PublishrdEnvironment\obj\Debug\PublishrdEnvironment.csprojResolveAssemblyReference.cache
 c:\users\administrator\documents\visual studio 2013\Projects\PublishrdEnvironment\PublishrdEnvironment\obj\Debug\PublishrdEnvironment.dll
 c:\users\administrator\documents\visual studio 2013\Projects\PublishrdEnvironment\PublishrdEnvironment\obj\Debug\PublishrdEnvironment.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\PublishrdEnvironment.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\PublishrdEnvironment.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\Alchemy4Tridion.Plugins.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\System.Web.Http.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\Alchemy4Tridion.Plugins.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\bin\Debug\System.Web.Http.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\obj\Debug\PublishrdEnvironment.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\obj\Debug\PublishrdEnvironment.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Final\PublishrdEnvironment\PublishrdEnvironment\obj\Debug\PublishrdEnvironment.pdb

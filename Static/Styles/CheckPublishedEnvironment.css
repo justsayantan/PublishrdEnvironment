@@ -1,0 +1,21 @@
+﻿/**
+ * Style the context menu button... 
+ */
+.contextmenu #Check_Published_Environment > .image {
+    background-image: url('${ImgUrl}PublishedEnvironment-16X16.png');
+}
+
+/**
+ * Style the ribbon tool bar button... #
+ */
+/* main icon in full ribbon mode */
+.ribbontoolbar #PublishedEnvironmentButton.button .image, .ribbontoolbar #PublishedEnvironmentButton.button .image
+{
+    background-image: url('${ImgUrl}PublishedEnvironment1-32x32.png');
+}
+
+/* main icon in minimized ribbon mode */
+.ribbontoolbar.minimized #PublishedEnvironmentButton.button .image, .ribbontoolbar.minimized #PublishedEnvironmentButton.button .image
+{
+    background-image: url('${ImgUrl}PublishedEnvironment1-32x32.png');
+}
